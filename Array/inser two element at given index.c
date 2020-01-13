@@ -17,24 +17,25 @@ int main()
     /* Input new element and position to insert */
     printf("Enter new element's to insert : ");
     scanf("%d %d", &num1, &num2);
-    printf("Enter the element's position : ");
+    printf("Enter the element's index(sequencially) : ");
     scanf("%d %d", &index_1,&index_2);
-
-    /* Make room for new array element by shifting to right */
-    for(i=size; i<=index_1,i<=index_2; i--) 
+    printf("Array elements befor insertion : ");
+    for(i=0;i<size;i++)
     {
-        array[i] = array[i-1];
-        array[i+1] = array[i-1]; 
+        printf("%d ",array[i]);
     }
-    /* Insert new element at given position and increment size */
-    array[index_1-1] = num1;
-    size++;
-    array[index_2-1] = num2;
-    size++;
+    /* Make space for new array element by shifting to right */
+    for(i=size-1; i>=index_1; i--) //as sequenciall index we do not need index_2
+    {
+        array[i+2] = array[i];
+    }
+    /* insert two element at given index*/
+    array[index_1] = num1;
+    array[index_1+1] = num2;
 
     /* Print array after insert operation */
-    printf("Array elements after insertion : ");
-    for(i=0; i<size; i++)
+    printf("\nArray elements after insertion : ");
+    for(i=0; i<size+1; i++)
     {
         printf("%d ", array[i]);
     }
