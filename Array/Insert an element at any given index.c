@@ -1,22 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    int a[10],n,i,new_value,new_index;
-    printf("How many numbers you wanna add? ");
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    int i,n,index,array_element,element_for_insert,a[10];
+    printf("how many element you wanna add to array: ");
+    scanf("%d",&array_element);
+    printf("Enter value for array: ");
+    for(i=0;i<array_element;i++)
+    {
         scanf("%d",&a[i]);
-    for(i=0;i<n;i++)
+    }
+    printf("which index you wanna insert: ");
+    scanf("%d",&index);
+    printf("Enter element for insert: ");
+    scanf("%d",&element_for_insert);
+    printf("Before insertion: \n");
+    for(i=0;i<array_element;i++)
+    {
         printf("%d ",a[i]);
-    printf("\nEnter the value: ");
-    scanf("%d",&new_value);
-    printf("which index you wanna add? ");
-    scanf("%d",&new_index);
-    for(i=n-1;i>=new_index;i--)
+    }
+    for(i=array_element-1;i>=index;i--)
+    {
         a[i+1]=a[i];
-    a[new_index]=new_value;
-    for(i=0;i<new_value;i++)
+    }
+    a[index]=element_for_insert;
+    printf("\nAfter insertion: \n");
+    for(i=0;i<=array_element;i++)
+    {
         printf("%d ",a[i]);
-        
-    return 0;
+    }
 }
