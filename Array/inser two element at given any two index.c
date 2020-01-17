@@ -15,9 +15,9 @@ int main()
     }
 
     /* Input new element and position to insert */
-    printf("Enter new element's to insert : ");
+    printf("Enter two new element to insert : ");
     scanf("%d %d", &num1, &num2);
-    printf("Enter the element's index(sequencially) : ");
+    printf("Enter two new index: ");
     scanf("%d %d", &index_1,&index_2);
     printf("Array elements befor insertion : ");
     for(i=0;i<size;i++)
@@ -25,13 +25,17 @@ int main()
         printf("%d ",array[i]);
     }
     /* Make space for new array element by shifting to right */
-    for(i=size-1; i>=index_1; i--) //as sequenciall index we do not need index_2
+    for(i=size-1; i>=index_1; i--)
+    {
+        array[i+1] = array[i];
+    }
+    for(i=size-1; i>=index_2; i--)
     {
         array[i+2] = array[i];
     }
     /* insert two element at given index*/
     array[index_1] = num1;
-    array[index_1+1] = num2;
+    array[index_2] = num2;
 
     /* Print array after insert operation */
     printf("\nArray elements after insertion : ");
@@ -42,4 +46,3 @@ int main()
 
     return 0;
 }
-
