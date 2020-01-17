@@ -12,9 +12,9 @@ int main()
     scanf("%d",&new_value);
     printf("which index you wanna add? ");
     scanf("%d",&new_index);
-    a[new_index]=new_value;
     for(i=n-1;i>=new_index;i--)
         a[i+1]=a[i];
+    a[new_index]=new_value;
     for(i=0;i<new_value;i++)
         printf("%d ",a[i]);
         
