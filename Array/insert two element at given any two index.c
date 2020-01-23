@@ -39,7 +39,7 @@ int main()
 
     /* Print array after insert operation */
     printf("\nArray elements after insertion : ");
-    for(i=0; i<size+1; i++)
+    for(i=0; i<size+2; i++)
     {
         printf("%d ", array[i]);
     }
