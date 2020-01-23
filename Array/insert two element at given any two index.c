@@ -19,7 +19,7 @@ int main()
     scanf("%d %d", &num1, &num2);
     printf("Enter two new index: ");
     scanf("%d %d", &index_1,&index_2);
-    printf("Array elements befor insertion : ");
+    printf("Array elements before insertion : ");
     for(i=0;i<size;i++)
     {
         printf("%d ",array[i]);
