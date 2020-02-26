@@ -13,7 +13,7 @@ struct Stack
 };
 void create(struct Stack *st)
 {
-    printf("Enter Size");
+    printf("Enter Size: ");
     scanf("%d",&st->size);
     st->top=-1;
     st->S=(int *)malloc(st->size*sizeof(int));
