@@ -9,8 +9,6 @@ struct node
 };
 typedef struct node NODE;
 
-void creat();
-
 int main()
 {
     int choice = 1;
@@ -51,6 +49,4 @@ int main()
         temp = temp->next;
         count++;
     }
-
 }
-
