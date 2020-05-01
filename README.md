@@ -15,3 +15,15 @@ here all of my lab code of SE-122 course
 
 
 ***
+
+
+>[Queue](https://github.com/mmr-ashiq/Data_Structure/tree/master/queue)
+
+
+***
+
+
+>[Linked List](https://github.com/mmr-ashiq/Data_Structure/tree/master/Linked_list)
+
+
+***
