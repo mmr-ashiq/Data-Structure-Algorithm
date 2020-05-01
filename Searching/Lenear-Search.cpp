@@ -47,3 +47,7 @@ int main()
         cout<<"\nKey is found at index "<<position<<endl;
     }
 }
+
+/*
+Time Complexity of Linear Search is O(n).
+*/
