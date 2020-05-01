@@ -27,3 +27,10 @@
 
 
 ***
+
+
+>[Searching](https://github.com/mmr-ashiq/Data_Structure-Algorithm/tree/master/Searching)
+>Binary Search: if we have **unsorted array**, we can not be applied binary search.
+
+
+***
