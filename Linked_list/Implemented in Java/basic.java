@@ -13,7 +13,8 @@ public class Main {
         countryNames.add("Canada");
         countryNames.add("Germany");
         countryNames.add("London");
-        countryNames.add(5,"India");
+        countryNames.add("Japan");
+        countryNames.add(6,"India");
         countryNames.addFirst("Australia");
         countryNames.addLast("New Zealand");
         countryNames.remove("India");
