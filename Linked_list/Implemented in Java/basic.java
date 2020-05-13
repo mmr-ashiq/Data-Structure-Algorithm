@@ -16,6 +16,7 @@ public class Main {
         countryNames.add(5,"India");
         countryNames.addFirst("Australia");
         countryNames.addLast("New Zealand");
+        countryNames.remove("India");
 
         System.out.println(countryNames);
         
