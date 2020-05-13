@@ -1,1 +1,0 @@
-ekhon e asbe
