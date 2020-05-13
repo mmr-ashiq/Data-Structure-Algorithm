@@ -26,10 +26,10 @@
 >[Linked List](https://github.com/mmr-ashiq/Data_Structure/tree/master/Linked_list)
 
 
--[Implemented in C](https://github.com/mmr-ashiq/Data_Structure-Algorithm/tree/master/Linked_list/Implemented%20in%20C)
+ -[Implemented in C](https://github.com/mmr-ashiq/Data_Structure-Algorithm/tree/master/Linked_list/Implemented%20in%20C)
 
 
---[Implemented in Java](https://github.com/mmr-ashiq/Data_Structure-Algorithm/tree/master/Linked_list/Implemented%20in%20Java)
+  --[Implemented in Java](https://github.com/mmr-ashiq/Data_Structure-Algorithm/tree/master/Linked_list/Implemented%20in%20Java)
 
 
 ***
