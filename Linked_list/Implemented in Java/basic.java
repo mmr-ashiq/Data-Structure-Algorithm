@@ -31,6 +31,9 @@ public class Main {
         */
         
         System.out.println("Size of the linked-list: "+countryNames.size());
+        
+        System.out.println("First element: "+countryNames.getFirst());
+        System.out.println("Last element: "+countryNames.getLast());
 
     }
 }
