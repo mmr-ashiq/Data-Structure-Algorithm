@@ -15,6 +15,14 @@ public class Main {
         countryNames.add("London");
 
         System.out.println(countryNames);
+        
+        /*
+        for(String country : countryNames){
+
+            System.out.println(country);
+
+        }
+        */
 
     }
 }
