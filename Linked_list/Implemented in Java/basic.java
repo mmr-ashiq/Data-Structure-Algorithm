@@ -14,6 +14,8 @@ public class Main {
         countryNames.add("Germany");
         countryNames.add("London");
         countryNames.add(5,"India");
+        countryNames.addFirst("Australia");
+        countryNames.addLast("New Zealand");
 
         System.out.println(countryNames);
         
