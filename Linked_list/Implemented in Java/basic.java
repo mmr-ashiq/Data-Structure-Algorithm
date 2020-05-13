@@ -23,6 +23,8 @@ public class Main {
 
         }
         */
+        
+        System.out.println("Size of the linked-list: "+countryNames.size());
 
     }
 }
