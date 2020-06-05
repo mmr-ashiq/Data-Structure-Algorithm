@@ -11,7 +11,7 @@ void insertion(int a[],int n)
         j=i-1;
         x=a[i];
 
-        //for sifting element
+        //for shifting element
         while(j>-1 && a[j]>x)
         {
             a[j+1]=a[j];
