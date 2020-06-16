@@ -70,7 +70,7 @@ int main()
     for(int n=10; n<=10000000; n *= 10)
     {
         int *arr = new int[n];
-         long startTime, endTime;
+        long startTime, endTime;
         for(int i = 0; i<n; i++){
             arr[i] = n-i;
         }
