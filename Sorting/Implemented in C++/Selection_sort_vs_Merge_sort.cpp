@@ -77,7 +77,7 @@ int main()
         startTime = getTimeInMicroSeconds();
 
         mergeSort(arr,0,n-1);
-        //selection sort(arr,n)
+        //selection sort(arr,n)     // if you want to how much time taken in selection sort, comment out this line and 85 no. line also
 
         endTime = getTimeInMicroSeconds();
 
