@@ -67,7 +67,7 @@ void selectionSort(int a[], int n){
 int main()
 {
 
-    for(int n=10; n<10000000; n *= 10)
+    for(int n=10; n<=10000000; n *= 10)
     {
         int *arr = new int[n];
          long startTime, endTime;
