@@ -71,17 +71,22 @@ void mergeSort(int a[], int s, int e){
     mergeArrays(x, y, a, s, e);
 }
 
-void selectionSort(int a[], int n){
-    for(int i=0;i<n-2;i++){
+void selectionSort(int a[], int n)
+{
+    for(int i=0; i<=n-2; i++)
+    {
         int smallest  = i;
-        for(int j=i+1; j<=n; j++){
-            if(a[j]<a[smallest]){
+        for(int j=i+1; j<=n-1; j++)
+        {
+            if(a[j]<a[smallest])
+            {
                 smallest = j;
             }
         }
         swap(a[i],a[smallest]);
     }
 }
+
 int main()
 {
 
@@ -95,7 +100,7 @@ int main()
         startTime = getTimeInMicroSeconds();
 
         mergeSort(arr,0,n-1);
-        //selection sort(arr,n)     // if you want to how much time taken in selection sort, comment out this line and 85 no. line also
+        //selectionSort(arr,n);    // if you want to how much time taken in selection sort, comment out this line and 85 no. line also
 
         endTime = getTimeInMicroSeconds();
 
@@ -103,6 +108,4 @@ int main()
         //cout<<"Selection sort n = "<<n<<" time "<<endTime - startTime<<endl;
         delete []arr;
     }
-
-
 }
