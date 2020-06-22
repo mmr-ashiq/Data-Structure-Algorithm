@@ -13,5 +13,8 @@ public class Main {
 
     }
 
-    //Time complexity of Bubble Sort : O(N^2)
+    /*Time complexity of Bubble Sort : 
+    Best Case: O(N)- Linear
+    Worst Case: O(N ^ 2)- Quadratic 
+    */
 }
