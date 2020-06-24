@@ -8,7 +8,7 @@ public class Main {
 
         int [] unsortedArray = {6,9,8,2,3,1,10,7,5};
         var LinearSearch = new LinearSearch();
-        var index = LinearSearch.linearSearch(unsortedArray,70);
+        var index = LinearSearch.linearSearch(unsortedArray,7);
         System.out.println(index);
 
 
