@@ -13,6 +13,6 @@ public class Main {
     }
 
     /*
-        Time complexity of Jump Sort: O(√n)
+        Time complexity of Jump Search: O(√n)
     */
 }
