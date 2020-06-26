@@ -18,6 +18,6 @@ public class Main {
         Dividing: O(log n)
         Merging: O(n)
 
-        Space Complexity of Merger Sort: O(n)
+        Space Complexity of Merge Sort: O(n)
     */
 }
