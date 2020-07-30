@@ -19,3 +19,11 @@
 `C#` : Dictionary
 
 `Dart` : Map
+
+# Time Complexity
+
+insert -> O(1)
+
+Lookup -> O(1)
+
+Delete -> O(1)
