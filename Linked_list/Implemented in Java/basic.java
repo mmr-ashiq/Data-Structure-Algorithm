@@ -21,7 +21,7 @@ public class Main {
         countryNames.remove(6);
 
         System.out.println(countryNames);
-        
+         
         /*
         for(String country : countryNames){
 
